@@ -1,0 +1,369 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    background-color: #323232;
+}
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: #ffffff;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 280px;
+    background: rgb(88, 88, 88);
+    border-radius: 10px;
+    border-color: rgb(95,95,95);
+}
+i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #ffffff;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.watch_title{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 42px;
+    text-align: center;
+    padding-bottom: 39px;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+.watch_title._active{
+    opacity: 1;
+}
+.desc_title{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 44px;
+    opacity: 0;
+    transform: translate(0,50px);
+    transition: all 1s ease 0s;
+}
+.desc_title._active{
+    opacity: 1;
+    transform: translate(0,0);
+}
+#btn1{
+    border-radius: 20.5px;
+    padding: 6px 20px;
+    display: block;
+    margin: auto;
+    background-color: #0092E4;
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+#btn1._active{
+    opacity: 1;
+}
+.watches{
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    transform: translate(0,110px);
+    transition: all 1s ease 0s;
+}
+.watches._active{
+    transform: translate(0,0);
+}
+.about1{
+    background: url(../img/image\ 8.png) no-repeat center top / cover;
+}
+.fit_watch{
+    padding-top: 254px;
+    font-size: 72px;
+    font-weight: 700;
+}
+.fit_desc{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: right;
+    padding-bottom: 474px;
+}
+.fit_watch,.fit_desc{
+    transition: all 2s ease 0s;
+    transform: translate(200px,0);
+}
+.fit_watch._active,.fit_desc._active{
+    transform: translate(0,0);
+}
+.watch_se{
+    padding-top: 86px;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 34px;
+    opacity: 0;
+    transform: translate(0,-50px);
+    transition: all 2s ease 0s;
+}
+.watch_se._active{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.se_img{
+    padding-top: 57px;
+    padding-bottom: 69px;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+.se_img._active{
+    opacity: 1;
+}
+.choose_watch{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 100px;
+    transform: translate(-200px,0);
+    transition: all 2s ease 0s;
+}
+.choose_watch._active{
+    transform: translate(0,0);
+}
+.se{
+    display: block;
+    margin: auto;
+}
+.watch1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.desc1{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 31px;
+}
+#btn2{
+    display: block;
+    margin: auto;
+    border-radius: 20.5px;
+    padding: 6px 20px;
+    background-color: #0092E4;
+}
+.cost1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 197px;
+}
+.watch2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.desc2{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 31px;
+}
+.cost2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 197px;
+}
+.watch3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.desc3{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 31px;
+}
+.cost3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 197px;
+}
+.ser7,.watch1,.desc1,.but1,.cost1{
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.se,.watch2,.desc2,.but2,.cost2{
+    transition: all 2.5s ease 0s;
+    opacity: 0;
+}
+.ser3,.watch3,.desc3,.but3,.cost3{
+    transition: all 4s ease 0s;
+    opacity: 0;
+}
+.ser7._active,.watch1._active,.desc1._active,.but1._active,.cost1._active{
+    opacity: 1;
+}
+.se._active,.watch2._active,.desc2._active,.but2._active,.cost2._active{
+    opacity: 1;
+}
+.ser3._active,.watch3._active,.desc3._active,.but3._active,.cost3._active{
+    opacity: 1;
+}
+.foot{
+    background-color: #323232;
+}
+.flogo{
+    padding-top: 62px;
+    display: block;
+    margin: auto;
+}
+.ftext1{
+    padding-top: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.ftext2{
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.burger-menu__button{
+    position: absolute;
+    top: 7px;
+    z-index: 30;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #323232;
+    transition: 0.4s;
+}
+.burger-menu__lines,
+.burger-menu__lines::after,
+.burger-menu__lines::before{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+.burger-menu__lines{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.burger-menu__lines::before{
+    top: -8px;
+    content: "";
+}
+.burger-menu__lines::after{
+    top: 8px;
+    content: "";
+}
+.burger-menu_active .burger-menu__button,
+.burger-menu_active .burger-menu__lines{
+    background-color: transparent;
+}
+.burger-menu_active .burger-menu__lines::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+.burger-menu_active .burger-menu__lines::before{
+    top: 0;
+    transform: rotate(45deg);
+}
+.burger-menu__nav{
+    padding-top: 110px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #323232;
+    overflow-y: auto;
+    right: -100%;
+    transition: 0.5s;
+}
+.burger-menu_active .burger-menu__nav{
+    right: 0;
+}
+.burger-menu__link{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 110px;
+    padding-top: 0px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.burger-menu__link:hover{
+    text-decoration: none;
+    filter: brightness(0.7);
+    color: gray;
+}
+.burger-menu__overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+.burger-menu_active .burger-menu__overlay{
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+}
+hr{
+    width: 300px;
+    background-color: #383838;
+    height: 2px;
+}
+.soc{
+    padding-top: 180px;
+    padding-left: 60px;
+    display: flex;
+}
+.face{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+a:hover{
+    text-decoration: none;
+}
