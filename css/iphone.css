@@ -1,0 +1,559 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    background-color: #323232;
+}
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: #ffffff;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 280px;
+    background: rgb(88, 88, 88);
+    border-radius: 10px;
+    border-color: rgb(95,95,95);
+}
+i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #ffffff;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.iphone{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    padding-top: 40px;
+    padding-bottom: 39px;
+    opacity: 0.1;
+    transition: all 2s ease 0s;
+}
+.iphone._active{
+    opacity: 1;
+}
+.description1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 44px;
+    transition: all 1s ease 0s;
+    transform: translate(0,50px);
+    opacity: 0;
+}
+.description1._active{
+    transform: translate(0,0);
+    opacity: 1;
+}
+#btn0{
+    display: block;
+    margin: auto;
+    border-radius: 20.5px;
+    background-color: #0092E4;
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+#btn0._active{
+    opacity: 1;
+}
+.iphone13pro{
+    padding-top: 53px;
+    display: block;
+    margin: auto;
+    transform: translate(-400px,0);
+    transition: all 2s ease 0s;
+    opacity: 0;
+}
+.iphone13pro._active{
+    transform: translate(0,0);
+    opacity: 1;
+}
+.about1{
+    background-color: #122239;
+}
+.iphone13{
+    padding-top: 89px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    opacity: 0.1;
+    transition: all 2s ease 0s;
+}
+.iphone13._active{
+    opacity: 1;
+}
+.description2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    opacity: 0;
+    transition: all 1s ease 0s;
+    transform: translate(0,50px);
+}
+.description2._active{
+    opacity: 1;
+    transform: translate(0,0);
+}
+#btn1{
+    border-radius: 20.5px;
+    display: block;
+    margin: auto;
+    padding: 6px 20px;
+    background-color: #0092E4;
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+#btn1._active{
+    opacity: 1;
+}
+.iphimg{
+    padding-top: 79.25px;
+    transition: all 2s ease 0s;
+    transform: translate(-1500px,0);
+}
+.iphimg._active{
+    transform: translate(0,0);
+}
+.about2{
+    background-color: #F2F2F2;
+}
+.why_techdrop{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 69px;
+    opacity: 0;
+    transform: translate(0,50px);
+    transition: all 2s ease 0s;
+}
+.why_techdrop._active{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.description3{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    opacity: 0;
+    transform: translate(0,50px);
+    transition: all 2s ease 0s;
+}
+.description3._active{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.iphimg2{
+    opacity: 0;
+    transition: all 3s ease 0s;
+}
+.iphimg2._active{
+    opacity: 1;
+}
+.choose_iph{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    text-align: center;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+.choose_iph._active{
+    opacity: 1;
+}
+.iphone13_pro{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 18px;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.iphone13_pro._active{
+    opacity: 1;
+}
+.desc1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.desc1._active{
+    opacity: 1;
+}
+.cost1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 197px;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.cost1._active{
+    opacity: 1;
+}
+.iphone13_{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 18px;
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+.iphone13_._active{
+    opacity: 1;
+}
+.desc2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+.desc2._active{
+    opacity: 1;
+}
+#btn2{
+    display: block;
+    margin: auto;
+    border-radius: 20.5px;
+    padding: 6px 20px;
+    background-color: #0092E4;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.cost2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 197px;
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+.cost2._active{
+    opacity: 1;
+}
+.iphone12{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 18px;
+    opacity: 0;
+    transition: all 4s ease 0s;
+}
+.iphone12._active{
+    opacity: 1;
+}
+.desc3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 4s ease 0s;
+}
+.desc3._active{
+    opacity: 1;
+}
+.cost3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 197px;
+    opacity: 0;
+    transition: all 4s ease 0s;
+}
+.cost3._active{
+    opacity: 1;
+}
+.i13pro{
+    padding-left: 11px;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.i13pro._active{
+    opacity: 1;
+}
+.i12{
+    padding-left: 30px;
+    opacity: 0;
+    transition: all 4s ease 0s;
+}
+.i12._active{
+    opacity: 1;
+}
+.i13{
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+.i13._active{
+    opacity: 1;
+}
+.but0{
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.but0._active{
+    opacity: 1;
+}
+.but{
+    opacity: 0;
+    transition: all 2.5s ease 0s;
+}
+.but._active{
+    opacity: 1;
+}
+.but2{
+    opacity: 0;
+    transition: all 4s ease 0s;
+}
+.but2._active{
+    opacity: 1;
+}
+.iphone13_,.desc2,.but,.cost2{
+    margin-left: -50px;
+}
+.iphone12,.desc3,.but2,.cost3{
+    padding-left: 10px;
+}
+.foot{
+    background-color: #323232;
+}
+.flogo{
+    padding-top: 62px;
+    display: block;
+    margin: auto;
+}
+.ftext1{
+    padding-top: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.ftext2{
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.burger-menu__button{
+    position: absolute;
+    top: 7px;
+    z-index: 30;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #323232;
+    transition: 0.4s;
+}
+.burger-menu__lines,
+.burger-menu__lines::after,
+.burger-menu__lines::before{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+.burger-menu__lines{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.burger-menu__lines::before{
+    top: -8px;
+    content: "";
+}
+.burger-menu__lines::after{
+    top: 8px;
+    content: "";
+}
+.burger-menu_active .burger-menu__button,
+.burger-menu_active .burger-menu__lines{
+    background-color: transparent;
+}
+.burger-menu_active .burger-menu__lines::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+.burger-menu_active .burger-menu__lines::before{
+    top: 0;
+    transform: rotate(45deg);
+}
+.burger-menu__nav{
+    padding-top: 110px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #323232;
+    overflow-y: auto;
+    right: -100%;
+    transition: 0.5s;
+}
+.burger-menu_active .burger-menu__nav{
+    right: 0;
+}
+.burger-menu__link{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 110px;
+    padding-top: 0px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.burger-menu__link:hover{
+    text-decoration: none;
+    filter: brightness(0.7);
+    color: gray;
+}
+.burger-menu__overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+.burger-menu_active .burger-menu__overlay{
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+}
+hr{
+    width: 300px;
+    background-color: #383838;
+    height: 2px;
+}
+.soc{
+    padding-top: 180px;
+    padding-left: 60px;
+    display: flex;
+}
+.face{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+@media screen and (max-width: 575px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 30%;
+    }
+    .box{
+        display: none;
+    }
+    .burger-menu__button{
+        position: absolute;
+        left: 82%;
+        top: -42px;
+    }
+    .burger-menu__nav{
+        padding-top: 50px;
+        transition: 0.5s;
+    }
+    .burger-menu__link{
+        font-size: 16px;
+        margin-left: -10px;
+        padding-right: 40px;
+    }
+    hr{
+        width: 150px;
+        margin-left: 25px;
+    }
+    .soc{
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    .iphone,.iphone13,.why_techdrop,.choose_iph{
+        font-size: 33px;
+    }
+    .description1,.description2,.description3{
+        font-size: 16px;
+    }
+    .iphone13pro{
+        width: 110%;
+    }
+    #btn1,#btn0{
+        margin-top: -30px;
+    }
+    .i13pro,.i13{
+        width: 65%;
+        display: block;
+        margin: auto;
+    }
+    .i13{
+        margin-top: -100px;
+    }
+    .i12{
+        width: 60%;
+        padding: 0px;
+        display: block;
+        margin: auto;
+        margin-top: -70px;
+    }
+    .iphone13_pro,.iphone13_,.iphone12{
+        font-size: 25px;
+    }
+    .desc1,.desc2,.desc3{
+        font-size: 18px;
+        margin-top: -15px;
+    }
+    .iphone13_,.desc2,.cost2,.but{
+        padding-left: 50px;
+    }
+    .cost3{
+        margin-bottom: -70px;
+    }
+    .flogo{
+        width: 35%;
+    }
+    .ftext1,.ftext2{
+        font-size: 10px;
+    }
+}
